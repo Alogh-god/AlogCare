@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Welcome to AlogCare community! Thanks so much for creating your first issue **#** :)'
+        pr-message: 'Hey **#** welcome to AlogCare community. You created your first PR  . Thanks from AlogCare community. Keep up good Work :)'
