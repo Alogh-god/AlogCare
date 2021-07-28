@@ -1,0 +1,77 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  
+}
+
+.leftDiv {
+    color: blue;
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rigthDiv {
+    width: 50%;
+    background-color: #EEF3FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.welcomeBlock {
+    background-color: cornflowerblue;
+    width: 447px;
+    height: 447px;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.titleWelcome {
+    text-align: center;
+    color: black;
+}
+
+.subtitleWelcomeBlock {
+    color: black;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: #757373;
+        width: 40%;
+        height: 100%;
+        label {
+            white-space: nowrap;
+        }
+    }
+}
+
+.formBlock {
+    width: 447px;
+    height: 447px; 
+    background-color: #EEF3FA;
+    margin: 15px 15px 15px 15px;
+    
+}
