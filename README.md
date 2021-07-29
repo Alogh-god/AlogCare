@@ -79,14 +79,19 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-
-
-
+3. Install lootier dependency
+  ``` sh
+   npm i @lottiefiles/lottie-player
+  ```
+4. Install bootstrap dependency npm install
+ ```
+ sh--save react-bootstrap bootstrap@3
+ ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-We are from alog-organization . We created this project for helping people in current situation. This website will create a way to connect   needy people and  [eople who 
+We are from alog-organization . We created this project for helping people in current situation. This website will create a way to connect   needy people and  [eople who
 want to help other.
 
 
@@ -104,7 +109,7 @@ This seciton will be updated shortly.
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
-2. Create your Branch 
+2. Create your Branch
 
 ```bash
     git checkout main
@@ -112,7 +117,7 @@ Contributions are what make the open source community such an amazing place to b
     git checkout -b MyBranch
 ```
 
-3. Commit your Changes 
+3. Commit your Changes
  ```bash
     git commit -m 'Add some AmazingFeature '
 ```
