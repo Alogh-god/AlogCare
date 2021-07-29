@@ -1,0 +1,98 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  
+}
+
+.leftDiv {
+    color: blue;
+    background-color: blue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rigthDiv {
+    width: 50%;
+    background-color: #EEF3FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.welcomeBlock {
+    background-color: cornflowerblue;
+    width: 447px;
+    height: 447px;
+    margin: 15px 15px 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.titleWelcome {
+    text-align: center;
+    color: black;
+}
+
+.subtitleWelcomeBlock {
+    color: black;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.form, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #757373;
+    height: 100%;
+}
+
+.form, form, label {
+    white-space: nowrap;
+}
+
+button, input, select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+
+button, input:focus, select, textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #DB0000;
+    background-color: transparent;
+}
+
+button, input:focus, select, textarea {
+    color: black;
+}
+
+.formBlock {
+    width: 447px;
+    height: 447px; 
+    background-color: #EEF3FA;
+    margin: 15px 15px 15px 15px;
+    
+}
+
+.align-label {
+    text-align: left;
+}
