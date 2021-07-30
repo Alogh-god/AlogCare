@@ -3,7 +3,7 @@ import { Card,Col,Row } from 'react-bootstrap';
 
 
 
-const card_style={
+const card_style = {
     textAlign:"Center",
     boxShadow:"15px 13px 10px ",
     height:"100px",
@@ -12,7 +12,9 @@ const card_style={
     padding:"10px",
     border:"3px outset gray"
 }
-const container_style={
+
+const container_style = {
+    display: "flex",
     padding:"20px",
     height:"390px",
     width:"75%",
@@ -23,6 +25,11 @@ const container_style={
     boxShadow: "0px 0px 15px 5px black",
     fontFamily:"'Barlow', sans-serif, 'Noto Serif', serif, 'PT Serif', serif",
 }
+
+const displayButtons = {
+    display: "flex"
+}
+
 const Covid = () => {
 
     const [data,setData] = useState([]);
@@ -49,7 +56,7 @@ const Covid = () => {
                 <h1>Currrent cases in India</h1>
                 <p>Last updated {data.lastupdatedtime}</p>
                 <div >
-                    <Row>
+                    <Row style={displayButtons}>
                         <Col>
                             <div style={card_style}>
                                 <h2>Recovered</h2>
